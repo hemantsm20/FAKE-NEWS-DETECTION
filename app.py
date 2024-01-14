@@ -24,6 +24,6 @@ if st.button("Predict"):
 
     # Display the label
     if label == 0:
-        st.write("The news article is fake.")
+        st.warning("The news article is Unreliable.")
     else:
-        st.write("The news article is real.")
+        st.success("The news article is Reliable.")
