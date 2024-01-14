@@ -11,7 +11,7 @@ model = joblib.load("model.pkl")
 st.title("Fake News Classification app")
 
 # Input text
-text = st.text_area("Enter the news article:",height=400)
+text = st.text_area("Enter the news article:",height=350)
 
 # Button to run inference
 if st.button("Predict"):
